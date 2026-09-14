@@ -4,8 +4,24 @@
 
 系统以非完整约束移动底盘和双机械臂为主要硬件，使用激光雷达、相机、UWB 和动捕系统完成建图、定位与对接。路径规划、视觉伺服、推车控制和双臂力控分别采用 Hybrid A*、MPC、CBF/CVaR、扰动观测器等方法。六个子仓库对应不同阶段和用途的工作空间，既包含实机驱动与控制代码，也保留了算法仿真和实验工具。
 
+## 系统概览
+
+<p align="center">
+  <img src="assets/task_workflow.png" alt="Airport trolley collection workflow" width="100%">
+  <br>
+  <sub>任务流程：搜索手推车、接近、双机器人对接与成列运输</sub>
+</p>
+
+<p align="center">
+  <img src="assets/robot_platform_evolution.png" alt="Evolution of the airport trolley robot platform" width="100%">
+  <br>
+  <sub>机器人平台从第一代到第七代的演进，以及当前平台的主要硬件组成</sub>
+</p>
+
 <p align="center">
   <img src="assets/airport_trolley_demo.gif" alt="Airport trolley robot demonstration" width="640">
+  <br>
+  <sub>实机运行演示</sub>
 </p>
 
 ## 相关论文
