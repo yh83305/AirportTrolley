@@ -2,6 +2,10 @@
 
 机场行李手推车机器人相关代码集合，包含移动底盘、双机械臂、CAN 电机驱动、激光定位与建图、视觉伺服、推车控制，以及避障/规划仿真等模块。
 
+<p align="center">
+  <img src="assets/airport_trolley_demo.gif" alt="Airport trolley robot demonstration" width="640">
+</p>
+
 本仓库是一个聚合仓库（superproject）：下列 6 个目录都是独立 Git 子模块，各自对应一个可单独构建的 ROS 2 工作空间源码仓库。
 
 ## 仓库结构
