@@ -6,6 +6,24 @@
   <img src="assets/airport_trolley_demo.gif" alt="Airport trolley robot demonstration" width="640">
 </p>
 
+## 相关论文
+
+1. **DA-VPC: Disturbance-Aware Visual Predictive Control Scheme of Docking Maneuvers for Autonomous Trolley Collection**  
+   Yuhan Pang, Bingyi Xia, Zhe Zhang, Zhirui Sun, Peijia Xie, Bike Zhu, Wenjun Xu, and Jiankun Wang. arXiv:2509.07413, 2025.  
+   [[Paper](https://arxiv.org/pdf/2509.07413)] · 相关模块：`ibvs_ws`
+
+2. **Integrating Maneuverable Planning and Adaptive Control for Robot Cart-Pushing under Disturbances**  
+   Zhe Zhang, Peijia Xie, Yuhan Pang, Zhirui Sun, Bingyi Xia, Bi-Ke Zhu, and Jiankun Wang. arXiv:2506.18410, 2025.  
+   [[Paper](https://arxiv.org/pdf/2506.18410)] · 相关模块：`push_ws`、`ibvs_arm_ws`
+
+3. **Collaborative Trolley Transportation System with Autonomous Nonholonomic Robots**  
+   Bingyi Xia, Hao Luan, Ziqi Zhao, Xuheng Gao, Peijia Xie, Anxing Xiao, Jiankun Wang, and Max Q.-H. Meng. *2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, pp. 8046–8053, 2023.  
+   [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10341508)] [[DOI](https://doi.org/10.1109/IROS55552.2023.10341508)] · 相关模块：`airport_ws`
+
+4. **Autonomous Multiple-Trolley Collection System with Nonholonomic Robots: Design, Control, and Implementation**  
+   Peijia Xie, Bingyi Xia, Anjun Hu, Ziqi Zhao, Lingxiao Meng, Zhirui Sun, Xuheng Gao, Jiankun Wang, and Max Q.-H. Meng. *Journal of Field Robotics*, 42(1):20–36, 2025.  
+   [[Paper](https://onlinelibrary.wiley.com/doi/full/10.1002/rob.22395)] [[DOI](https://doi.org/10.1002/rob.22395)] · 相关模块：`airport_ws`
+
 本仓库是一个聚合仓库（superproject）：下列 6 个目录都是独立 Git 子模块，各自对应一个可单独构建的 ROS 2 工作空间源码仓库。
 
 ## 仓库结构
