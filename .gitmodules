@@ -1,0 +1,18 @@
+[submodule "airport_ws"]
+	path = airport_ws
+	url = https://github.com/yh83305/airport_ws.git
+[submodule "can_ws"]
+	path = can_ws
+	url = https://github.com/yh83305/can_ws.git
+[submodule "ibvs_arm_ws"]
+	path = ibvs_arm_ws
+	url = https://github.com/yh83305/ibvs_arm_ws.git
+[submodule "ibvs_ws"]
+	path = ibvs_ws
+	url = https://github.com/yh83305/ibvs_ws.git
+[submodule "push_ws"]
+	path = push_ws
+	url = https://github.com/yh83305/push_ws.git
+[submodule "pyh_ws"]
+	path = pyh_ws
+	url = https://github.com/yh83305/pyh_ws.git
